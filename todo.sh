@@ -1234,7 +1234,7 @@ case $action in
     shift  ## Was listfile, next $1 is file name
     if [ $# -eq 0 ]; then
         [ $TODOTXT_VERBOSE -gt 0 ] && echo "Files in the todo.txt directory:"
-        cd "$TODO_DIR" && ls -1 *.txt
+        cd "$TODO_DIR" && ls -1 *.${TODO_FILE##*.}
     else
         FILE="$1"
         shift  ## Was filename; next $1 is first search term
