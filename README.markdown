@@ -1,27 +1,27 @@
-h1. TODO.TXT Command Line Interface !https://secure.travis-ci.org/ginatrapani/todo.txt-cli.png?branch=master(Build Status)!:http://travis-ci.org/ginatrapani/todo.txt-cli
+`tomdo` a (minimally) Markdown aware `todo.sh`
+==============================================
 
-A simple and extensible shell script for managing your todo.txt file.
+This is my collection of adjustments to the [`todo.sh`][todo.sh] script
+by Gina Trapani.  The major difference is I wanted it to be aware of
+some basic Markdown.  Specifically, I want to be able to use the
+unordered list syntax of Markdown to force a git repository to actually
+display a list.
 
-h2. "Downloads":http://github.com/ginatrapani/todo.txt-cli/downloads
+Installation
+------------
 
-"Download the latest stable release":http://github.com/ginatrapani/todo.txt-cli/downloads for use on your desktop or server.
+1.  Clone this branch of the repository
+2.  Copy the `todo.cfg` to `$HOME/.todo/config`, `$HOME/todo.cfg`, or
+    `$HOME/.todo.cfg`.  Any of the three will work.
+3.  Edit the self documented configuration file
+4.  Start managing you to dos.
 
-h2. "Documentation":http://wiki.github.com/ginatrapani/todo.txt-cli
+Quick Links
+-----------
 
-* "User Documentation":http://wiki.github.com/ginatrapani/todo.txt-cli/user-documentation - Find out "how to install and use Todo.txt CLI":http://wiki.github.com/ginatrapani/todo.txt-cli/user-documentation, and get tips and tricks.
+*   Original TODO.TXT by [Gina Trapani][todo.sh]
+*   Licensed under the [GPL][GPL]
 
-* "Developer Documentation":http://wiki.github.com/ginatrapani/todo.txt-cli/developer-documentation - "Contribute to Todo.txt CLI":http://wiki.github.com/ginatrapani/todo.txt-cli/developer-documentation and build your own custom add-ons.
+[todo.sh]:  https://github.com/ginatrapani/todo.txt-cli
+[GPL]:      http://www.gnu.org/copyleft/gpl.html
 
-h2. "Mailing List":http://groups.yahoo.com/group/todotxt/
-
-Get support from users and developers on the "mailing list":http://groups.yahoo.com/group/todotxt/.
-
-h2. Quick Links
-
-* Original anemic release by "Gina Trapani":http://ginatrapani.org on 5/11/2006.
-* Raised to great heights by "brainy and dedicated volunteers":http://github.com/ginatrapani/todo.txt-cli/network.
-* Licensed under the "GPL":http://www.gnu.org/copyleft/gpl.html
-* "Add-on Directory":https://github.com/ginatrapani/todo.txt-cli/wiki/Todo.sh-Add-on-Directory
-https://github.com/ginatrapani/todo.txt-cli/wiki/Creating-and-Installing-Add-ons
-* "Changelog":https://github.com/ginatrapani/todo.txt-cli/wiki/Todo.sh-Changelog
-* "Known Bugs":http://github.com/ginatrapani/todo.txt-cli/issues
